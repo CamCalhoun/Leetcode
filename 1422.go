@@ -16,7 +16,7 @@ func maxScore(s string) int {
 
 	// Traverse string
 
-	for i := 0; i < len(s); i++ {
+	for i := 0; i < len(s)-1; i++ {
 		if s[i] == '0' {
 			zeroes++
 		} else {
